@@ -15,6 +15,10 @@ body{
     line-height: 1.5;
 }
 
+p{
+    color: #8f8f8f;
+}
+
 .container-fluid{
     padding: 3% 15%;
 }
@@ -55,7 +59,26 @@ body{
 
  /*********feature section***********/
 
- .featurediv{
-     width: 33%;
-     margin: 20px auto;
+
+ .featureh3{
+     font-family: montserrat;
+     font-weight: bold;
+ }
+
+ #features{
+     padding: 7% 15%;
+ }
+
+ .feature-box{
+     text-align: center;
+     padding: 5%;
+ }
+
+ .ficon{
+     color: #ef8172;
+     margin-bottom: 1rem;
+ }
+
+ .ficon:hover{
+     color: #ff4c68;
  }
