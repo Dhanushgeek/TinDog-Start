@@ -93,7 +93,6 @@ h2{
  /**************testimonial section*********/
 
  #testimonials{
-     padding: 7% 15%;
      text-align: center;
      background-color: #ef8172;
      color: #fff;
@@ -105,6 +104,9 @@ h2{
      margin: 20px;
  }
 
+ .carousel-item{
+     padding: 7% 15%;
+ }
 /**********press section************************/
 
 #press{
@@ -116,4 +118,17 @@ h2{
 .press-img{
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/***************Pricing Section************************/
+
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+
+}
+
+.pricing-coloumn{
+    padding: 3% 2%;
 }
