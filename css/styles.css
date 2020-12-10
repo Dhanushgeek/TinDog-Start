@@ -8,12 +8,24 @@ h1,h2,h3,h4,h5,h6{
     font-family: "montserrat";
 }
 
+
+/*sections*/
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
 /************************Title Section**************************/
 
 #title{
     text-align: left;
     background-color:#ff4c68 ;
-    color: #fff;
 }
 
 p{
@@ -85,7 +97,6 @@ h2{
 
  #features{
      padding: 7% 15%;
-     background-color: white;
      position: relative;
     /** z-index: 1;**/
  }
@@ -108,7 +119,6 @@ h2{
 
  #testimonials{
      background-color: #ef8172;
-     color: #fff;
  }
 
  .testimonial-img{
@@ -147,12 +157,10 @@ h2{
 /****************Call to action Section*********************/
 
 #cta{
-    background-color: #ff4c68;
     padding: 5% 2% 1%;
 }
 
 #cta-h3 {
-    color: #fff;
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
